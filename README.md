@@ -32,4 +32,6 @@ CLS [a cell to clear]
 
 SND [a cell to output]
 
+IIV [the pin] [X volts] $[then execute any instructions]
+
 END
