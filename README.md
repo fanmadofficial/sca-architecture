@@ -2,8 +2,7 @@ SCA ARCHITECTURE
 
 • what is it?
 
-a simple risc inspired 8-bit instruction set that has ABSOLUTELY no input options.
-ONLY output.
+a simple risc inspired 8-bit instruction set.
 
 • how does it work?
 
