@@ -31,7 +31,7 @@ HAL [wait time]
 
 (clear) CLS [a cell to clear]
 
-(send) SND [a cell to output]
+(send) SND [a cell to output] [the pin for output]
 
 (if input value) IIV [the pin] [X volts] $[then execute any instructions]
 
