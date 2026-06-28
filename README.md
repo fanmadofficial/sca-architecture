@@ -13,24 +13,28 @@ even though its 8 bit, it has a limit of 64 digits at once in a cell of ram.
 
 • the isa
 
-ORG [how much cells of ram to use].
+(have got) hag [library name]
 
-ADD [a digit, up to 64] [a ram cell to add the digit]
+(organize) ORG [how much cells of ram to use].
 
-SUB [a digit, up to 64] [a ram cell to subtract the digit from]
+(add) ADD [a digit, up to 64] [a ram cell to add the digit]
+
+(subtract) SUB [a digit, up to 64] [a ram cell to subtract the digit from]
 
 HAL [wait time]
 
-JMA [flag to point where it is]
+(jump adress) JMA [flag to point where it is]
 
-JMP [jump to the JMA flag] [repeat how many times]
+(jump) JMP [jump to the JMA flag] [repeat how many times]
 
-MOV [original cell adress] [new cell adress]
+(move) MOV [original cell adress] [new cell adress]
 
-CLS [a cell to clear]
+(clear) CLS [a cell to clear]
 
-SND [a cell to output]
+(send) SND [a cell to output]
 
-IIV [the pin] [X volts] $[then execute any instructions]
+(if input value) IIV [the pin] [X volts] $[then execute any instructions]
+
+(execute or ignore) EOI [the pin] [x volts] $[then execute any instructions]
 
 END
