@@ -1,0 +1,36 @@
+ORG 15;
+HAG TXT.lib;
+ ADD 8 1; h
+ ADD 5 2; e
+ ADD 12 3; l
+ ADD 12 4; l
+ ADD 15 5; o
+ ADD 27 6; space
+ ADD 23 7; w
+ ADD 15 8; o
+ ADD 18 9; r
+ ADD 12 10; l
+ ADD 4 11; d
+ ADD 28 12; enter
+ ADD 5 13; e
+ ADD 14 14; n
+ ADD 4 15; d
+TXT 1 1;
+TXT 2 1;
+TXT 3 1;
+TXT 4 1;
+TXT 5 1;
+TXT 6 1;
+TXT 7 1;
+TXT 8 1;
+TXT 9 1;
+TXT 10 1;
+TXT 11 1;
+TXT 12 1;
+TXT 13 1;
+TXT 14 1;
+TXT 15 1;
+JMA 0100
+HAL 255
+JMP 0100 255
+END
